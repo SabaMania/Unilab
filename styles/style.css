@@ -1,5 +1,67 @@
-.first {
+.container {
 	max-width: 1440px;
-	height: 50px;
+	width: 100%;
 	background-color: #F6F8F9;
+	margin: 0 auto;
+}
+/* header */
+.logo {
+	width: 38px;
+	height: 15px;
+	margin: 18px 0 0 20px;
+}
+.navbar {
+	display: flex;
+	justify-content: flex-end;
+}
+.navbar-li{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -17px;
+}
+.lists {
+	margin-left: 22px;
+	font-size: 11px;
+	color: #343638;
+}
+.profile {
+	margin: -50px 20px 0 40px;
+}
+/*section*/
+.container1 {
+	max-width: 1440px;
+	width: 100%;
+	margin: 0 auto;
+}
+.mini-container {
+	max-width: 1440px;
+	width: 100%;
+}
+.background-img {
+	background-image: url('../images/nature.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	max-width: 840px;
+	width: 100%;
+	height: 600px;
+}
+.inside-container {
+	position: absolute;
+	background-size: pink;
+	max-width: 600px;
+	width: 100%;
+	height: 247px;
+	margin: 177px 100px 0 140px;
+}
+.title {
+	font-size: 24px;
+	color: white;
+	padding-bottom: 40px;
+	border-bottom: 2px solid white;
+}
+.text {
+	font-size: 24px;
+	color: white;
+	padding-top: 40px;
 }
