@@ -171,6 +171,7 @@
 	padding-top: 45px;
 }
 .title2 {
+	font-family: 'Helvetica';
 	font-size: 24px;
 	padding-top: 40px;
 	font-weight: bold;
@@ -179,12 +180,17 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: 40px;
+}
+.minibox {
+	width: 360px;
+	height: 360px;
 	background-color: #FFFFFF;
 }
 .downimage {
 	margin: 40px 0 0 40px;
 }
 .minititle{
+	font-family: 'Helvetica';
 	font-size: 16px;
 	color: #202124;
 	font-weight: bold;
@@ -210,18 +216,21 @@
 	margin: 40px 0 40px 0;
 }
 .top1 {
+	font-family: 'Helvetica';
 	font-size: 16px;
 	color: white;
 	font-weight: bold;
 	margin: 40px 0 0 40px;
 }
 .top2 {
+	font-family: 'Helvetica';
 	font-size: 24px;
 	color: white;
 	font-weight: bold;
 	margin: 232px 0 0 40px;
 }
 .top3 {
+	font-family: 'Helvetica';
 	font-size: 16px;
 	color: white;
 	margin: 10px 0 0 40px;
@@ -233,6 +242,7 @@
 	color: #CBD0D3;
 }
 .time1 {
+	font-family: 'Helvetica';
 	margin: 25px 0 0 8px;
 	color: #CBD0D3;
 	display: inline-block;
@@ -253,6 +263,9 @@
 .img {
 	margin-top: 40px;
 }
+.under {
+	text-decoration: underline;
+}
 .small-title {
 	font-size: 16px;
 	color: #202124;
@@ -260,8 +273,13 @@
 	margin-top: 20px;
 }
 .time2 {
-	margin: 11px 0 0 10px;
+	font-family: 'Helvetica';
+	margin: 11px 0 11px 10px;
 	color: #A6ADB4;
+}
+.icon-clock {
+	display:flex;
+	justify-content: flex-start;
 }
 .three-img:last-child {
 	margin-bottom: 100px;
@@ -283,6 +301,7 @@
 	justify-content: space-between;
 }
 .footer-text {
+	font-family: 'Helvetica';
 	font-size: 13px;
 	margin-bottom: 8px;
 	color: #CBD0D3;
@@ -298,6 +317,7 @@
 	padding: 58px 0 0 180px;
 }
 #email {
+	font-family: 'Helvetica';
 	width: 262px;
 	height: 40px;
 	background-color: #A6ADB4;
@@ -306,6 +326,7 @@
 	padding: 14px 0 16px 20px;
 }
 .footer2-text {
+	font-family: 'Helvetica';
 	font-size: 11px;
 	color: #CBD0D3;
 	padding-top: 16px;
@@ -344,6 +365,7 @@
 	margin-bottom:42px;
 }
 .story {
+	font-family: 'Helvetica';
 	margin: 3px 19px 0 30px;
 	font-size: 11px;
 	font-weight: bold;
@@ -378,6 +400,7 @@
 	padding-top: 155px;
 }
 .title1 {
+	font-family: 'Helvetica';
 	font-size: 32px;
 	color: white;
 	font-weight: bold;
@@ -385,6 +408,7 @@
 	border-bottom: 2px solid #FA6980;
 }
 .news-text {
+	font-family: 'Helvetica';
 	font-size: 16px;
 	padding: 30px 0;
 	color: white;
@@ -419,6 +443,7 @@
 	border-radius: 6px;
 }
 .select {
+	font-family: 'Helvetica';
 	font-size: 13px;
 	color: #A6ADB4;
 	padding: 12px 0 13px 20px;
@@ -465,6 +490,7 @@
 	margin: 41px 0 40px 40px;
 }
 .big-text {
+	font-family: 'Helvetica';
 	color: #A6ADB4;
 }
 .third-type {
@@ -496,9 +522,10 @@
 	height: 250px;
 }
 .texttext {
+	font-family: 'Helvetica';
 	font: 14px;
 	color: #A6ADB4;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 .container4 {
 	max-width: 1440px;
