@@ -89,6 +89,7 @@
 	width: 134px;
 	height: 40px;
 	margin-top: 30px;
+	margin-bottom: 87px;
 	background-color: #FA6980;
 	border-radius: 6px;
 }
@@ -414,6 +415,13 @@
 	margin: 11px;
 	color: #575F66;
 }
+.minicontainer1 {
+	max-width: 1160px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
 .half-photo {
 	background-image: url('../images/sand.png');
 	background-size: cover;
@@ -507,6 +515,10 @@
 	border-top:2px solid #EBEDED;
 	border-bottom:2px solid #EBEDED;
 	margin: 40px 0 ;
+}
+.two-box {
+	display: flex;
+	justify-content: space-between;
 }
 .avatar1 {
 	padding-top: 40px;
