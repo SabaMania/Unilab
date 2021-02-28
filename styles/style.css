@@ -3,7 +3,6 @@
 	width: 100%;
 	background-color: #F6F8F9;
 	margin: 0 auto;
-	padding: 0 15px;
 }
 /* header */
 .logo {
@@ -68,8 +67,10 @@
 	font-size: 24px;
 	color: white;
 	padding-bottom: 40px;
-	border-bottom: 2px solid white;
 	font-weight: bold;
+}
+.border-white {
+	border-bottom: 2px solid white;
 }
 .text {
 	font-family: 'Helvetica';
@@ -130,6 +131,7 @@
 	font-family: 'Helvetica';
 	font-size: 16px;
 	color: #FA6980;
+	font-weight: bold;
 }
 .mini2 {
 	font-family: 'Helvetica';
@@ -157,6 +159,19 @@
 	color: #A6ADB4;
 	margin: 12px 0 40px 10px;
 	display: inline-block;
+}
+.after-res {
+	display: none;
+	width: 284px;
+	height: 121px;
+	margin-top: 42px;
+}
+.after-res1 {
+	font-size: 16px;
+	margin-top: 10px;
+	max-width: 350px;
+	width: 100%;
+	color: #A6ADB4;
 }
 /*section2*/
 .layout {
@@ -289,12 +304,11 @@
 .container3 {
 	max-width: 1440px;
 	width: 100%;
-	height: 200px;
 	background-color: #A6ADB4;
 	margin: 0 auto;
 }
 .footer1 {
-	padding-top: 56px;
+	padding: 56px;
 	max-width: 379px;
 	width: 100%;
 	height: 84px;
@@ -305,12 +319,14 @@
 	font-family: 'Helvetica';
 	font-size: 13px;
 	margin-bottom: 8px;
+	padding-right: 65px;
 	color: #CBD0D3;
 }
 .layout1 {
 	max-width: 1160px;
 	width: 100%;
 	margin-left: 140px;
+	padding-bottom: 60px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -348,6 +364,14 @@
 .icon {
 	color: #FFFFFF;
 	margin-left: 32px;
+}
+
+.footer-start1 {
+	display: flex;
+	justify-content: space-between;
+}
+.logo1 {
+	padding-right: 60px;
 }
 /*page 2*/
 .minicontainer {
