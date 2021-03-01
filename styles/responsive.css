@@ -106,6 +106,15 @@
 		width: 284px;
 		margin-top: 0;
 	}
+	.elephant {
+		margin-left: 80px;
+		margin-top: -60px;
+		width: 608px;
+	}
+	.bottom-img {
+		margin-left: 80px;
+		width: 608px;
+	}
 }
 @media (max-width: 880px) {
 	.minibox {
@@ -128,6 +137,18 @@
 	}
 	.three-type {
 		margin-left: 0 auto;
+	}
+	.elephant {
+		margin-left: 80px;
+		margin-top: -60px;
+		width: 608px;
+	}
+	.bottom-img {
+		margin-left: 80px;
+		width: 608px;
+	}
+	.after-resp {
+		display: block;
 	}
 }
 

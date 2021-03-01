@@ -528,6 +528,13 @@
 	width: 340px;
 	padding: 20px 0 92px 0;
 }
+.after-resp {
+	display: none;
+	font-family: 'Helvetica';
+	font-size: 16px;
+	width: 608px;
+	margin-left: 80px;
+}
 .second-type {
 	width: 360px;
 	height: 172px;
